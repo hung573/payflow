@@ -3,7 +3,7 @@ spring:
     name: payflow
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/payflow_db
+    url: jdbc:postgresql://127.0.0.1:5432/payflow_db
     username: payflow
     password: ${DB_PASSWORD}
 
